@@ -5,5 +5,5 @@ package com.labo.kaji.proxyservice;
  * @since 2015/07/23.
  */
 public @interface ProxyService {
-
+    String value() default "";
 }
